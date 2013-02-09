@@ -14,6 +14,6 @@
 
 ifeq ($(TARGET_BOARD_PLATFORM),s5pc110)
 ifneq ($(TARGET_BOOTLOADER_BOARD_NAME),herring)
-include hardware/samsung/s5pc110.mk
+include $(SAM_ROOT)/s5pc110.mk
 endif
 endif
